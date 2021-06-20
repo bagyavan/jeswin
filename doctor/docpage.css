@@ -1,0 +1,198 @@
+h3
+{
+  color: #273c75;
+}
+.dateandtime
+{
+  color: #e84118;
+  padding: 1%;
+  font-size: 18px;
+}
+
+body
+{
+  background-color: #f5f6fa;
+}
+.docappocounterparent
+{
+  display: flex;
+
+}
+
+.docappocounter
+{
+flex: 1;
+padding: 1%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+background-color:#40739e;
+color: white;
+
+height: 160px;
+margin: 20px;
+border-radius: 2px;
+
+}
+
+.docappocounter span
+{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.docappocounter a button
+{
+  padding: 5px;
+  cursor: pointer;
+  background-color: #dcdde1;
+  color: #192a56;
+  border: none;
+  border-radius: 5px;
+
+  float: right;
+}
+
+
+/* Doctor View Appointments CSS starts here */
+.appotable table
+{
+  font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+.appotable table td, .appotable table th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appotable table tr:nth-child(even){background-color: #f2f2f2;}
+
+.appotable table tr:hover {background-color: #ddd;}
+.appotable table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2c3e50;
+  color: white;
+}
+
+
+
+/* Doctor View Appointments CSS Ends here */
+
+
+
+/* Doctor homepage elements CSS Here */
+#adonetoday
+{
+  width: 100%;
+   border-collapse: collapse;
+}
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th, td {
+  padding: 15px;
+}
+
+
+/* Doctor homepage elements CSS Ends Here */
+
+
+/* Doctor Attend appointments Css Here */
+.attendappo
+{
+  width: 100%;
+
+}
+
+.attendappo h3
+{
+  margin-left: 15px;
+}
+
+.attendappo p
+{
+  margin-left: 15px;
+  color: #192a56;
+
+}
+
+.attendappo span
+{
+  font-size: 18px;
+  color: #c23616;
+}
+
+.attendappobtns button
+{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #487eb0;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  position:relative;
+  left: 80%;
+  bottom: 90px;
+}
+
+#medtable td
+{
+  border: none;
+
+}
+
+#medtable tr td input[type=text]
+{
+  padding: 1%;
+}
+
+#medtable select
+{
+  width: 100px;
+  height: 30px;
+}
+
+.attendappo input[type=submit]
+{
+  padding: 7px;
+  cursor: pointer;
+  color: white;
+  background-color: #e84118;
+  border: none;
+  border-radius: 5px;
+}
+
+.keys
+{
+  position: relative;
+  left: 50px;
+}
+
+.successs
+{
+  padding: 9px;
+  color: #192a56;
+  background-color: #a7cc98;
+  border: none;
+  border-radius: 8px;
+  width: 50%;
+  margin-left: 15px;
+
+}
+
+.complete input[type=button]
+{
+  padding: 7px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+
+}
+
+
+
+/* Doctor Attend appointments Css Ends Here */
