@@ -1,0 +1,91 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.container{
+    width:100%;
+    height:100%;
+}
+.container .row{
+    width: 100%;
+}
+.container .row .header .logo_description_report_header{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center; */
+    line-height: 1rem;
+    text-align: center;
+}
+.header .logo_description_report_header img{
+    width: 100px;
+    height:100px;
+}
+.header .logo_description_report_header .brand_company{
+    text-transform: capitalize;
+    background-color: rgba(255, 25, 0, 0.5);
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+}
+.header .logo_description_report_header .description{
+    color:gray;
+    font-size: 12px;
+    padding-bottom : 100px;
+}
+/* body of report style  */
+.body_report{
+    width: 100%;
+    margin-left:50px;
+
+}
+
+.name_header
+{
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: #273c75;
+  text-align: center;
+  font-size: 14px;
+}
+.body_report  .Header_title{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:inherit;
+    text-align: center;
+}
+.body_report .container_details{
+    width:inherit;
+
+}
+.body_report .container_details table{
+    border-spacing :0px;
+}
+.body_report .container_details table tr td{
+    width:15%;
+    padding: 5px 10px;
+}
+.body_report .container_details table thead tr{
+    background-color: #ff6348;
+    margin:0px;
+}
+.body_report .container_details table tbody tr:nth-child(odd){
+    background-color: rgb(135, 255, 79 ,0.3);
+}
+.body_report .container_details table tbody tr:nth-child(even){
+    background-color: rgba(252, 255, 79, 0.3);
+}
+
+/* here is footer  */
+.row .address{
+    padding-top:50px;
+    font-size: 10px;
+}
+.row .tel{
+    font-size: 10px;
+}

@@ -1,0 +1,1082 @@
+/*For user page styles */
+
+*{
+margin: 0 0;
+padding: 0 0;
+font-family: sans-serif;
+
+
+}
+
+.container{
+
+width: 100%;
+margin: 0 0;
+padding: 1%;
+background-color: #5352ed;
+
+}
+
+.logo{
+color: white;
+font-weight: bold;
+float: left;
+
+}
+
+.menu{
+text-align: right;
+
+
+}
+
+.menu ul{
+list-style-type: none;
+
+}
+
+.menu ul li{
+
+  display: inline;
+  color: white;
+  padding: 1%;
+  line-height: 10px;
+}
+
+input[type=button]{
+background-color: orange;
+cursor: pointer;
+padding: 1%;
+border: none;
+color: white;
+margin-right:60px;
+border-radius: 50px;
+
+}
+
+input[type=button]:hover{
+
+  background-color: red;
+}
+
+
+
+/*User header nav style begins here */
+
+.user-header-detail{
+
+float: left;
+margin-left: 100px;
+padding: 1%;
+
+}
+
+.user-header-detail i
+{
+position: relative;
+top: 30px;
+right: 830px;
+color: #dfe4ea;
+
+}
+
+.user-header-detail i:hover
+{
+
+  color: #2f3542;
+}
+
+
+.button-adjust{
+
+width: 20%;
+float: right;
+display: inline;
+
+}
+
+.clearfix{
+clear: both;
+float: none;
+
+}
+
+/*User header nav ends here */
+
+/*User home page CSS begins here */
+
+.wrapper{
+
+border: 1px solid black;
+margin: 3% 0%;
+padding: 2%;
+
+}
+
+.alert-msg-success{
+
+  color: green;
+  font-weight: bold;
+  padding: 1%;
+  margin: 10px;
+}
+
+/* Search bar CSS here */
+
+.searchbar
+{
+
+padding: 2%;
+margin: 2% 4%;
+background-color: #ffffff;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.unit
+{
+  position: relative;
+  float: left;
+  padding: 2%;
+
+}
+
+.unit input
+{
+padding: 8px;
+background-color: #1e3799;
+border: none;
+color: white;
+border-radius: 50px;
+cursor: pointer;
+position: absolute;
+left: 500px;
+
+
+
+}
+
+
+
+
+
+/* User Page Search CSS Here */
+
+
+.box select {
+  background-color: #f1f2f6;
+  color: black;
+  padding: 12px;
+  width: 350px;
+  border: none;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+
+
+.box select option {
+  padding: 30px;
+}
+
+
+
+
+/* Search Result CSS Here */
+
+
+
+.searchmsg{
+
+font-size: 20px;
+color: #eb2f06;
+margin: 2% 4%;
+padding: 1%;
+
+
+}
+
+
+
+
+
+.searchresult{
+
+padding: 2%;
+
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+margin: 2% 4%;
+
+
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr 0fr;
+  grid-template-rows: 100px 0fr 0fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "img text button ."
+    ". . . ."
+    ". . . .";
+}
+
+.img
+
+  { grid-area: img;
+    width: 100%
+    height: 100%;
+    font-size: 70px;
+    font-weight: bold;
+    border: 1px solid #39f;
+    text-align: center;
+    margin: 0% 8%;
+
+
+
+  }
+
+.img:hover
+{
+background:#212529;
+color: white;
+
+
+}
+
+
+.text
+{ grid-area: text;
+  border: 1px solid #39f;
+  padding: 2%;
+}
+
+.text h3
+{
+
+  font-weight: bold;
+  color: #212529;
+  font-size: 20px;
+}
+
+.text i
+{
+color: #2f3542;
+
+}
+
+.button
+{ grid-area: button;
+  background-color: #f60;
+  color: white;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 2px;
+  text-align: center;
+
+  height: 40px;
+
+  margin: 0% 5%;
+  position: relative;
+  top: 30px;
+
+ }
+
+ .button a
+
+ {
+   position: relative;
+   top: 7px;
+   text-decoration: none;
+
+ }
+
+ .button:hover
+ {
+
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+ }
+
+
+
+
+ /* Booking Page CSS Here */
+
+
+
+.booknow
+{
+  padding: 2%;
+
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  margin: 2% 4%;
+  height: 100%;
+
+}
+
+
+.grid-containers {
+  display: grid;
+  grid-template-columns: 20% 35% 45%;
+  grid-template-rows: 50px 150px 0fr;
+  gap: 4px 3px;
+  grid-template-areas:
+    "title . ."
+    "img details date"
+    ". . .";
+}
+
+.title
+{ grid-area: title;
+  font-size: 18px;
+
+  color: #114dba;
+
+}
+
+.img { grid-area: img; }
+
+.details { grid-area: details; }
+
+.date
+{
+  grid-area: date;
+
+}
+
+
+#from
+{
+width: 60%;
+height: 40px;
+background-color: #114dba;
+border: 1px solid black;
+position: relative;
+top: 30px;
+right: 10px;
+cursor: pointer;
+color: white;
+padding: 1%;
+border-radius: 5px;
+
+}
+
+::placeholder {
+  /* color: black;
+  padding: 1%; */
+}
+
+.date i
+{
+position: relative;
+top: 32px;
+right: 45px;
+color: white;
+
+}
+
+
+
+/* Progress Bar CSS Here */
+
+
+.containerprogress {
+  width: 100%;
+}
+
+.progressbar {
+  counter-reset: step;
+}
+.progressbar li {
+  list-style: none;
+  display: inline-block;
+  width: 30.33%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height : 30px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  background-color: #fff;
+}
+.progressbar li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #ddd;
+  top: 15px;
+  left: -50%;
+  z-index : -1;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+.progressbar li.active {
+  color: green;
+}
+.progressbar li.active:before {
+  border-color: green;
+}
+.progressbar li.active + li:after {
+  background-color: green;
+}
+
+
+/* Progress Bar CSS Ends Here */
+
+
+.date input[type=submit]
+{
+
+  background-color: #57c5c7;
+  color: white;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+  right: 20px;
+}
+
+#continue
+{
+position: relative;
+bottom: 120px;
+left: 55px;
+margin-top: 5px;
+
+
+
+
+}
+
+
+
+
+/* Check Availability CSS starts here */
+/* The alert message box */
+.alert {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #353b48; /* Red */
+  color: white;
+  margin: 0% 0% 0% 30%;
+  width: 40%;
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#refresh
+{
+  font-size: 20px;
+  color: black;
+  position: relative;
+  left: 1px;
+  cursor: pointer;
+
+
+
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+
+/* Check Availability CSS Ends here */
+
+
+
+
+/* Final Booking page CSS here */
+
+.scrub
+{
+background-color: #273c75;
+border-radius: 10px;
+padding: 4%;
+margin-top: 15px;
+color: white;
+
+
+
+}
+
+#finalsub
+{
+
+background-color: #e84118;
+position: relative;
+left: 310px;
+
+width: 80px;
+border-radius: 30px;
+
+
+}
+
+.change
+{
+padding: 8px;
+background-color: #0097e6;
+border: none;
+border-radius: 30px;
+position: relative;
+top: 30px;
+left: 300px;
+cursor: pointer;
+color: white;
+
+}
+
+/* Final Booking page CSS ends here */
+
+
+
+
+/* Appointment Result page CSS Here */
+
+.appobox
+{
+padding: 2%;
+
+width: 50%;
+margin-left: 25%;
+border-radius: 7px;
+background-color: #353b48;
+color: white;
+font-size: 15px;
+
+
+}
+
+.appobox h3
+{
+color: #f5f6fa;
+
+}
+
+.appobox span
+{
+padding: 1%;
+color: #f5f6fa;
+
+}
+
+#print
+{
+padding: 5px;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+background-color: #e84118;
+color: white;
+width: 38px;
+font-size: 12px;
+
+}
+.print i
+{
+position: relative;
+right: 26px;
+font-size: 15px;
+cursor: pointer;
+}
+
+.print
+{
+position: relative;
+left: 280px;
+
+}
+
+/* Appointment Result page CSS Ends Here */
+
+
+
+
+
+/* My Appointments page CSS starts here */
+
+.myappobody
+{
+
+  border: 1px solid black;
+}
+
+
+
+/* My Appointments page CSS Ends here */
+
+
+
+
+/* User accounts page CSS Here  */
+
+.leftbar
+{
+  padding: 20px;
+float: left;
+width: 30%;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.leftone
+{
+  padding: 20px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 10px;
+background-color: #fff;
+
+
+}
+
+.lefttwo
+{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+
+.rightbar
+{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  float: right;
+  border-radius: 10px;
+  width: 68%;
+  margin-right: 1%;
+  background-color: #fff;
+}
+
+.hr
+{
+  width: 100%;
+      height: 1px;
+      background: #e1e1e1;
+      display: block;
+      margin: 10px 0px;
+
+
+}
+
+.heads
+{
+color: #114dba;
+margin-left: 15px;
+
+}
+
+.leftone-contents
+{
+
+margin-left: 120px;
+position: relative;
+bottom: 10px;
+}
+
+.leftone-contents span
+{
+color: #114dba;
+
+}
+
+.heads-name h4
+{
+
+font-size: 25px;
+color: #333333;
+position: relative;
+bottom: 30px;
+
+}
+
+.clearfix-acc {
+  overflow: auto;
+}
+
+.editbutton
+{
+  padding: 2px 10px;
+      color: #114dba;
+      background: #dfefff;
+      border: 0;
+      display: inline-block;
+      font-size: 11px;
+      border-radius: 3px;
+      text-align: center;
+      margin-top: 6px;
+      text-decoration: none;
+
+}
+
+.lefone-bottom span
+{
+color: #114dba;
+
+}
+
+.leftone-bottom
+{
+
+  line-height: 26px;
+}
+
+.lefttwo-contents
+{
+
+  font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin: 0 0;
+    padding: 20px 0 0 0;
+}
+
+.btn-adddep
+{
+
+  padding: 3px 14px;
+color: #114dba;
+background: #dfefff;
+border: 0;
+display: block;
+font-size: 13px;
+border-radius: 3px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.btn-adddep a
+{
+  text-decoration: none;
+}
+
+.nav ul li a
+{
+
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: #57c5c7;
+
+}
+
+.nav ul li
+{
+float: left;
+padding: 5px;
+
+}
+
+.nav ul
+{
+list-style-type: none;
+
+
+}
+.nav
+{
+
+  width: 100%;
+}
+
+.rightbar-contents
+{
+
+  font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin: 0 0;
+    padding: 20px 0 0 0;
+}
+
+
+.viewappobox
+{
+border: 1px solid #e1e1e1;
+float: left;
+margin-top: 20px;
+margin-right: 20px;
+padding: 1px;
+background-color: #fff;
+border-radius: 5px;
+width: 40%;
+
+}
+
+.view1
+{
+  border-bottom: 1px solid #e1e1e1;
+  padding: 15px;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.clearfixs::after
+{
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.view2
+{
+  border-bottom: 1px solid #e1e1e1;
+  padding: 15px;
+  color: #222;
+
+
+
+}
+
+.profl
+{
+
+  float: left;
+  margin-left: 3px;
+}
+
+.profl span
+{
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 52px;
+  width: 52px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+
+
+}
+
+.profl span:hover
+{
+background-color: #a4b0be;
+
+
+}
+
+
+
+
+.view3
+{
+
+padding: 15px;
+color: #222;
+border-bottom: 1px solid #e1e1e1;
+
+}
+
+.view3 span
+{
+
+  color: #114dba;
+}
+
+.view4
+{
+  padding: 15px;
+  background-color: #dfefff;
+}
+
+.view4 span a
+{
+color: #114dba;
+float: right;
+
+}
+
+/* Edit profile Modal class CSS Here */
+
+.editprofileflds1
+{
+
+
+
+  float: left;
+}
+
+.editprofileflds2
+{
+
+
+
+  float: right;
+}
+
+.onefield
+{
+
+
+  margin: 5px;
+}
+
+.editform
+{
+  padding: 2%;
+}
+
+.onefield input[type=date]
+{
+  width: 190px;
+  height: 40px;
+}
+
+.editprofilebtn
+{
+  background-color: #114dba;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prflmessage
+{
+width: 90%;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #3c763d;
+padding: 1%;
+margin: 0% 5%;
+border-radius: 5px;
+
+
+}
+
+.closebtns
+{
+  margin-left: 15px;
+  color: green
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+/* Edit profile modal class CSS ends here */
+
+/* Visit History CSS starts here */
+.visithistory h3
+{
+
+  color: #114dba;
+  margin-left: 10px;
+}
+
+
+
+.historycard
+{
+display: flex;
+}
+.box1
+{
+  margin-left: 10px;
+  padding: 2%;
+
+
+
+  width: 30%;
+}
+
+#medtable
+{
+  width: 100%;
+}
+
+#medtable th
+{
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 1%;
+
+}
+
+
+#medtable td
+{
+  border-collapse: collapse;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+
+
+
+
+/* Visit History CSS Ends starts here */
+
+/* User account page CSS Ends here */
+
+
+/* Payment page CSS starts here */
+
+.notes
+{
+padding: 2%;
+background-color: #dfefff;
+color: black;
+border-radius: 10px;
+width: 100%;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.paymentform form label
+{
+  padding: 5px;
+  margin-left: 20px;
+}
+.paymentform form input[type=text]
+{
+  padding: 5px;
+  margin-left: 20px;
+  line-height: 18px;
+}
+
+/* Payment page CSS Ends here */
