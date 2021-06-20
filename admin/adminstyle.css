@@ -1,0 +1,287 @@
+.wrapper-admin{
+
+
+padding: 2% 1%;
+margin: 0% 0%;
+background-color: #546de5;
+height: 30px;
+
+}
+
+/*Admin login page nav here */
+.admin-nav{
+color: white;
+padding: 2%;
+background-color: #5352ed;
+font-family: sans-serif;
+
+}
+
+.admin-nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.admin-nav ul li{
+list-style-type: none;
+
+
+}
+
+
+/*Admin function nav CSS here */
+
+.square-box li a{
+text-decoration: none;
+color: white;
+font-weight: lighter;
+}
+
+.square-box li{
+list-style-type: none;
+
+
+
+
+
+}
+
+.square-box{
+  box-sizing: border-box;
+padding: 1%;
+text-align: center;
+display: inline;
+float: left;
+border-right: 1px solid white;
+
+}
+
+
+
+/*Admin div on off contents here */
+
+.request-contents{
+
+padding: 2%;
+margin: 1%;
+
+}
+
+.add-doctor-contents{
+
+  padding: 2%;
+  margin: 1%;
+
+}
+
+.delete-doctor-contents{
+
+  padding: 2%;
+  margin: 1%;
+
+}
+
+.spec-doctor-contents{
+
+  padding: 2%;
+  margin: 1%;
+
+}
+
+
+/*Add Speciality CSS here */
+
+.spl-content{
+
+padding: 1% 2%;
+
+
+width: 40%;
+height: 50%;
+
+}
+
+.spl-content input{
+
+padding: 1%;
+
+
+}
+
+.spl-content-added{
+
+margin: 1% 0%;
+float: right;
+position: relative;
+bottom: 130px;
+right: 140px;
+
+
+
+}
+
+/*Table printing CSS starts here */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 150px;
+}
+
+#customers td i
+{
+
+  color: black;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ced6e0;
+  color: black;
+
+  border: none;
+}
+
+/*Table printing CSS ends here */
+
+
+
+
+
+
+
+#add{
+
+  background-color: #eccc68;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.spl-content p{
+
+
+color: green;
+width: 250px;
+position: absolute;
+bottom: 350px;
+right: 750px;
+font-size: 14px;
+
+
+
+}
+
+
+
+/*Add doctor content here */
+
+.adddoc_content{
+border: 1px solid black;
+padding: 1%;
+width: 50%;
+
+margin: 2%;
+
+}
+
+.adddoc_content input{
+
+padding: 1%;
+margin: 2%;
+width: 200px;
+}
+
+.adddoc_content select{
+
+  width: 215px;
+  padding: 1%;
+  margin: 2%;
+}
+
+.gender{
+
+  margin: 2%;
+  padding: 1%;
+  font-family: georgia;
+  border: 1px solid #dddddd;
+
+}
+
+#gender{
+margin: 0%;
+padding: 0%;
+width: 30px;
+
+
+}
+
+
+
+/*Doctor registration form CSS starts here */
+
+
+.adddoc_content_doc{
+border: 2px solid #2f3542;
+padding: 1%;
+width: 50%;
+position: relative;
+left: 400px;
+
+margin: 2%;
+align-content: center;
+box-shadow: 5px 10px;
+
+}
+
+.adddoc_content_doc input{
+
+padding: 1%;
+margin: 2%;
+width: 200px;
+
+}
+
+.adddoc_content_doc select{
+
+  width: 215px;
+  padding: 1%;
+  margin: 2%;
+}
+
+.gender{
+
+  margin: 2%;
+  padding: 1%;
+  font-family: georgia;
+  border: 1px solid #dddddd;
+
+}
+
+#gender{
+margin: 0%;
+padding: 0%;
+width: 30px;
+
+
+}
+
+
+
+
+
+/*Doctor registration form CSS ends here */

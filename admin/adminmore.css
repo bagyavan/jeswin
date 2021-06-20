@@ -1,0 +1,120 @@
+body
+{
+background-color: #f1f2f6;
+
+}
+
+.navbar
+{
+  background-color: #5352ed;
+  color: white;
+  padding: 2%;
+  float: top;
+
+}
+
+.navbar span
+{
+margin: 0px 10px;
+font-size: 18px;
+
+}
+
+.navbar a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover
+{
+
+  color: #57606f;
+}
+
+
+
+/* Leave manage CSS here */
+
+#myInput
+{
+padding: 1%;
+width: 180px;
+height: 8px;
+margin-bottom: 15px;
+
+}
+
+
+
+table
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  table-layout: auto;
+  padding: 1%;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table th
+{
+  padding: 1%;
+  background-color: #5352ed;
+  color: white;
+}
+
+table tr
+{
+  padding: 1%;
+  border: 1px solid black;
+}
+
+table td
+{
+border: 1px solid black;
+padding: 1%;
+
+
+}
+
+table td a i
+{
+
+  color: #eb4d4b;
+}
+
+/* Leave manage CSS Ends Here */
+
+/* Manage Appointment CSS starts here */
+h3
+{
+  color: #273c75;
+}
+.dateandtime
+{
+  color: #e84118;
+  padding: 1%;
+  font-size: 18px;
+}
+
+#manageappotable
+{
+  width: 70%;
+}
+#manageappotable tr td i
+{
+  cursor: pointer;
+  color: #44bd32;
+}
+#manageappotable tr td
+{
+  color: #2f3640;
+}
+
+
+
+
+
+
+/* Manage Appointment CSS ends here */
