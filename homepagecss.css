@@ -1,0 +1,107 @@
+.slider1
+{
+  display: flex;
+  background-color: #006266;
+  color: white;
+  align-items: stretch;
+
+}
+.box1
+{
+
+  flex:1;
+  padding: 2%;
+
+
+}
+.box2
+{
+
+  flex:1;
+  padding: 2%;
+    height: 500px;
+
+}
+
+.box1 h2
+{
+  position: relative;
+  top: 30%;
+  background-color: #EA2027;
+  padding: 3%;
+  width: 200px;
+  margin-left: 150px;
+}
+.box1 h3
+{
+  position: relative;
+  top: 30%;
+  padding: 2%;
+margin-left: 150px;
+  width: 250px;
+}
+
+.box2 i
+{
+  font-size: 300px;
+  position:relative;
+  top: 110px;
+  left: 150px;
+}
+
+.records
+{
+  display: flex;
+  background-color: #dff9fb;
+  color: #114dba;
+
+  padding: 1%;
+  border-radius: 60px;
+  position: relative;
+  top: 150px;
+
+}
+
+.rec1
+{
+  height: 100px;
+  flex: 1;
+  width: 300px;
+
+}
+.rec2
+{
+  height: 100px;
+  flex: 2;
+  width: 300px;
+}
+.rec1 h3
+{
+font-size: 30px;
+position: relative;
+bottom: 50px;
+
+}
+.rec1 h4
+{
+  position: relative;
+  left: 145px;
+  font-size: 14px;
+}
+.rec2 h3
+{
+font-size: 30px;
+position: relative;
+right: 50px;
+bottom: 20px;
+
+
+}
+.rec2 h4
+{
+
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  left: 62px;
+}
